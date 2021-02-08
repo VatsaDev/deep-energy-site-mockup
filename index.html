@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deep Energy ⚡</title>
+    <meta
+      name="description"
+      content="Hi, welcome to deep energy. We're a different kind of company, that believes in working together and being sustainable. We hope for the goal of all products in all devices"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="resources/favicon.svg"
+    />
+    <link rel="stylesheet" href="style/main.css" defer />
+  </head>
+  <body>
+    <nav>
+      <a href="#home"
+        ><img
+          src="resources/Logo.svg"
+          alt="Logo"
+          width="24.2"
+          height="30.6"
+        />⚡</a
+      >
+      <a href="#home">Home</a>
+      <a href="#core">Values</a>
+      <a href="#projects">Projects</a>
+    </nav>
+    <header class="header" id="home">
+      <div class="overlay">
+        <img src="resources/Logo.svg" alt="Logo" width="242" height="306" />
+        <h1>Deep Energy ⚡</h1>
+        <h2>All products, All devices, All users</h2>
+      </div>
+    </header>
+    <main>
+      <section class="intro" id="core">
+        <h2 style="text-align: center">
+          Hi, we're Deep Energy, <br />
+          and here's our pillars
+        </h2>
+        <div class="center">
+          <div class="card">
+            <h1>Responsiveness</h1>
+            <p>
+              We believe in responsive products that are great for any device to
+              look at, no matter retina displays, pixels or anything else.
+            </p>
+            <img src="resources/responsive.svg" alt="responsive" />
+          </div>
+          <div class="card">
+            <h1>PWA</h1>
+            <p>
+              We believe in PWA apps and saving a website to your phone. A
+              mobile device deserves proper web navigation.
+            </p>
+            <img src="resources/pwa.svg" alt="PWA" />
+          </div>
+          <div class="card">
+            <h1>Accessibility</h1>
+            <p>
+              We believe in letting everyone use our apps. whether you are deaf
+              or colour blind, you should be able to use our sites.
+            </p>
+            <img src="resources/accessible.svg" alt="accessible" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="resources/credits.md" target="_blank">credits</a><br>
+      © VatsaDev <div id="date" style="display:inline"></div>, all rights reserved
+      <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("date").innerHTML = n;
+      </script>
+    </footer>
+  </body>
+</html>
